@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE6F58A8252763D3001A00A8 /* ScreenShot01.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F58A7252763D3001A00A8 /* ScreenShot01.png */; };
-		CE6F58AB252763DF001A00A8 /* ScreenShot02.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F58AA252763DF001A00A8 /* ScreenShot02.png */; };
+		CE6F58B2252768C5001A00A8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CE6F58B1252768C5001A00A8 /* README.md */; };
+		CE6F58B72527695F001A00A8 /* ScreenShot02.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F58B52527695F001A00A8 /* ScreenShot02.png */; };
+		CE6F58B82527695F001A00A8 /* ScreenShot01.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6F58B62527695F001A00A8 /* ScreenShot01.png */; };
 		CECBCA0A252722C900B23305 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECBCA09252722C900B23305 /* AppDelegate.swift */; };
 		CECBCA0C252722C900B23305 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CECBCA0B252722C900B23305 /* art.scnassets */; };
 		CECBCA0E252722C900B23305 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECBCA0D252722C900B23305 /* GameViewController.swift */; };
@@ -17,8 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CE6F58A7252763D3001A00A8 /* ScreenShot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot01.png; sourceTree = "<group>"; };
-		CE6F58AA252763DF001A00A8 /* ScreenShot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot02.png; sourceTree = "<group>"; };
+		CE6F58B1252768C5001A00A8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CE6F58B52527695F001A00A8 /* ScreenShot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot02.png; sourceTree = "<group>"; };
+		CE6F58B62527695F001A00A8 /* ScreenShot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScreenShot01.png; sourceTree = "<group>"; };
 		CECBCA06252722C900B23305 /* Air Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Air Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECBCA09252722C900B23305 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CECBCA0B252722C900B23305 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -42,8 +44,8 @@
 		CE6F58A525275E82001A00A8 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				CE6F58A7252763D3001A00A8 /* ScreenShot01.png */,
-				CE6F58AA252763DF001A00A8 /* ScreenShot02.png */,
+				CE6F58B62527695F001A00A8 /* ScreenShot01.png */,
+				CE6F58B52527695F001A00A8 /* ScreenShot02.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -51,6 +53,7 @@
 		CECBC9FD252722C900B23305 = {
 			isa = PBXGroup;
 			children = (
+				CE6F58B1252768C5001A00A8 /* README.md */,
 				CECBCA08252722C900B23305 /* Air Game */,
 				CECBCA07252722C900B23305 /* Products */,
 			);
@@ -135,10 +138,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE6F58AB252763DF001A00A8 /* ScreenShot02.png in Resources */,
+				CE6F58B72527695F001A00A8 /* ScreenShot02.png in Resources */,
+				CE6F58B2252768C5001A00A8 /* README.md in Resources */,
+				CE6F58B82527695F001A00A8 /* ScreenShot01.png in Resources */,
 				CECBCA0C252722C900B23305 /* art.scnassets in Resources */,
 				CECBCA13252722CB00B23305 /* Assets.xcassets in Resources */,
-				CE6F58A8252763D3001A00A8 /* ScreenShot01.png in Resources */,
 				CECBCA11252722C900B23305 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
