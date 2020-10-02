@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Game View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="GameViewController" customModule="Air_Game" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YQi-j5-rFf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HtK-ZK-hPf">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </sceneKitView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ons-Qu-1iM">
+                                <rect key="frame" x="0.0" y="44" width="414" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="textColor" systemColor="systemPurpleColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="M0f-eM-0md"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="M0f-eM-0md" firstAttribute="trailing" secondItem="ons-Qu-1iM" secondAttribute="trailing" id="D8P-Wa-8f8"/>
+                            <constraint firstItem="HtK-ZK-hPf" firstAttribute="trailing" secondItem="YQi-j5-rFf" secondAttribute="trailing" id="DZa-rM-dr5"/>
+                            <constraint firstItem="HtK-ZK-hPf" firstAttribute="bottom" secondItem="YQi-j5-rFf" secondAttribute="bottom" id="Gry-c0-sJp"/>
+                            <constraint firstItem="ons-Qu-1iM" firstAttribute="top" secondItem="M0f-eM-0md" secondAttribute="top" id="YfU-tc-7q1"/>
+                            <constraint firstItem="HtK-ZK-hPf" firstAttribute="top" secondItem="YQi-j5-rFf" secondAttribute="top" id="ddf-tg-KB7"/>
+                            <constraint firstItem="ons-Qu-1iM" firstAttribute="leading" secondItem="M0f-eM-0md" secondAttribute="leading" id="hOb-sd-aKz"/>
+                            <constraint firstItem="HtK-ZK-hPf" firstAttribute="leading" secondItem="YQi-j5-rFf" secondAttribute="leading" id="yAn-9t-4uV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scnView" destination="HtK-ZK-hPf" id="Cb5-w8-D6l"/>
+                        <outlet property="scoreLabel" destination="ons-Qu-1iM" id="YFF-g9-WJB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="127.53623188405798" y="68.973214285714278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
